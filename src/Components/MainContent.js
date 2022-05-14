@@ -14,17 +14,17 @@ function MainContent() {
       <motion.h1
         className="grid place-content-center"
            animate={{
-      rotate: [0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,],
-      transition: { duration: 25 }
+      rotate: [0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20,0, 20, 0, 20, 0, 20, 0 , 20, 0],
+      transition: { duration: 100 }
     }}
-    
+
       >🚀</motion.h1>
       </div>
       <div></div>
       <p className="pspace">
         I'm a 16 year web old developer and student from <a>Austria</a> who enjoys
         learning languages and frameworks to <a>build Cool Sh*t</a> with them. I
-        sometimes post my work publicly on <a>Github</a> & you can contact me at{" "}
+        sometimes post my work publicly on <a>Github,</a> you can contact me at{" "}
         <a>Twitter</a> & <a>Discord</a>
       </p>
       <h2 className="headspace">Technologies</h2>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-
+import {Link} from "react-router-dom"
 function Navbar() {
   function playAudio() {
     new Audio("./mixkit-modern-click-box-check-1120 (online-audio-converter.com).mp3").play();
@@ -8,19 +8,19 @@ function Navbar() {
   
   return (
     <div className=' flex place-content-between py-5 font-mono '>
-      <div className='flex gap-4 cursor-pointer'>
+      <div className='flex gap-6 cursor-pointer'>
       <motion.p
       whileHover={{scale:1.1}}
       whileTap={{scale:0.9}}
-      className=' hover:bg-zinc-700/25 p-1 rounded-md  hover:font-bold '>/Home</motion.p>
+      className=''><Link to="/home">/Home</Link></motion.p>
       <motion.p
       whileHover={{scale:1.1}}
       whileTap={{scale:0.9}}
-      className=' hover:bg-zinc-700/25 p-1 rounded-md  hover:font-bold '>/About</motion.p>
+      className=''><Link to="/about">/About</Link></motion.p>
       <motion.p
       whileHover={{scale:1.1}}
       whileTap={{scale:0.9}}
-      className=' hover:bg-zinc-700/25 p-1 rounded-md  hover:font-bold '>/Contact</motion.p>
+      className=''><Link to="/Contact">/Contact</Link></motion.p>
       </div>
       <div className='flex'>
         <motion.button className='bg-white w-8 h-8 grid place-content-center rounded-md'
