@@ -21,8 +21,10 @@ body {
     font-weight: 300;
     line-height: 1.4;
     max-width: 28em;
+    margin-bottom: 26px;
   }
   a {
+      cursor: pointer;
     text-decoration: none;
     color: #82e993;
     position: relative;
