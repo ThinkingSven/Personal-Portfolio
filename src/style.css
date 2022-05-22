@@ -46,3 +46,10 @@ a:after {
 a:hover:after {
   top: 0%;
 }
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+    
+  }
+  p{font-size: 1rem;}
+}
