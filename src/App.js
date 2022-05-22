@@ -1,38 +1,21 @@
-import "./input.css";
-import { motion } from "framer-motion";
-import { Route, Routes } from 'react-router-dom';
-import { BrowserRouter as Router } from "react-router-dom";
-// Components
-import Navbar from "./Components/Navbar";
-import MainContent from "./Components/MainContent";
-import Footer from "./Components/Footer";
-// Pages
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
+import "./style.css";
 function App() {
   return (
-    <Router>
-      
-      <div className="App">
-        <motion.section
-          animate={{
-            scale: [0.7, 1],
-          }}
-          transition={{ duration: 0.5 }}
-          >
-          <Navbar />
-
-          <Routes>
-
-            <Route exact path="/" element={<MainContent/>}/>
-            <Route exact path="/home" element={<MainContent/>}/>
-            <Route exact path="/about" element={<About/>}/>
-            <Route exact path="/Contact" element={<Contact/>}/>
-          </Routes>
-         <Footer/>
-        </motion.section>
-      </div>
-            </Router>
+    <div className="App">
+      <section>
+        <h1 className="my-5">
+          Hello. My name is <a>Sven</a>
+        </h1>
+        <p>
+          I'm a 16 year old <a>web developer</a> & student based in Austria. I
+          like to <a>build epic stuff</a> using technoloy. Most of my work is
+          open source & publicly available on <a>Github</a>. I'm currently
+          working on <a>Gryt</a> which is a modern speed typing website that will be released soon™.
+        </p>
+        
+         
+      </section>
+    </div>
   );
 }
 
