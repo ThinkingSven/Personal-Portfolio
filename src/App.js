@@ -15,7 +15,7 @@ function App() {
         </h1>
         <p>
           I'm a 16 year old <a>web developer</a> & student based in Austria. I
-          like to <a>build epic stuff</a> using technology. Most of my work is
+          like to <a>build cool stuff</a> using technology. Most of my work is
           open source & publicly available on{" "}
           <a href="https://github.com/ThinkingSven">Github</a>.
         </p>
