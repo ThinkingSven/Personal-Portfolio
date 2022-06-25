@@ -22,15 +22,19 @@ function App() {
         <p>
           You can contact me on{" "}
           <a className="" onClick={handleCopy}>
-            Discord  
-          </a>
-          {" "}(ThinkingSven#4099) &{" "}
+            Discord
+          </a>{" "}
+          (ThinkingSven#4099) &{" "}
           <a href="https://twitter.com/ThinkingSven">Twitter</a>
         </p>
         <p>
-          I'm currently working on <a href="https://github.com/ThinkingSven/Galaxite.">Galaxite</a> which is a modern speed typing
-          website that will be released soon™.
+          I'm currently working on{" "}
+          <a href="https://github.com/ThinkingSven/Galaxite.">Galaxite</a> which
+          is a modern speed typing website that will be released soon™.
         </p>
+        <div className="flex">
+      
+        </div>
       </section>
     </div>
   );
